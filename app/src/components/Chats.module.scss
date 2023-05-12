@@ -1,0 +1,29 @@
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: space-between;
+  padding: 5px 15px;
+
+  & > * {
+    max-width: 95%;
+    width: 920px;
+  }
+}
+
+.chatMessages {
+  flex: 1;
+}
+
+.chatLine {
+  form {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+
+    input {
+      flex: 1;
+    }
+  }
+}
